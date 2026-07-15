@@ -31,15 +31,25 @@ export default function Hero() {
             engagement, and sales.
           </p>
 
-          <div className="flex gap-5 mt-10 flex-wrap">
-            <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-xl font-semibold">
-              Get Started
-            </button>
+          <div className="flex flex-col sm:flex-row gap-5 mt-10">
 
-            <button className="border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-xl">
-              Book Free Consultation
-            </button>
-          </div>
+  <a
+    href="https://www.instagram.com/punit__sharma___05?igsh=bTd1cTFseGZ0cWhv"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-center transition-all duration-300"
+  >
+    Get Started
+  </a>
+
+  <a
+    href="mailto:Influencehubee@gmail.com?subject=Free Consultation"
+    className="border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-xl font-semibold text-center transition-all duration-300"
+  >
+    Book Free Consultation
+  </a>
+
+</div>
 
         </div>
 
