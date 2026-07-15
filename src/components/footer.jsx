@@ -9,7 +9,7 @@ export default function Footer() {
         </h2>
 
         <p className="text-gray-400 mt-4 md:mt-0">
-          © 2026 InfluenceHub. All Rights Reserved.
+          © 2026 InfluenceHub. All Rights Reserved..
         </p>
 
       </div>
