@@ -46,7 +46,7 @@ export default function Contact() {
 
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/punit_pandey_05/"
+          href="https://www.instagram.com/punit__sharma___05?igsh=bTd1cTFseGZ0cWhv/"
           target="_blank"
           rel="noopener noreferrer"
           className="group w-20 h-20 rounded-full bg-white/10 backdrop-blur-lg border border-white/10 hover:bg-pink-600 hover:scale-110 transition-all duration-300 flex items-center justify-center shadow-lg"
