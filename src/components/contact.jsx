@@ -28,7 +28,7 @@ export default function Contact() {
 
         {/* Email */}
         <a
-          href="mailto:influencehube@gmail.com"
+          href="mailto:Influencehubee@gmail.com"
           className="group w-20 h-20 rounded-full bg-white/10 backdrop-blur-lg border border-white/10 hover:bg-blue-600 hover:scale-110 transition-all duration-300 flex items-center justify-center shadow-lg"
           aria-label="Email"
         >
