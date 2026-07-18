@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import DigitalMarketing from "./pages/digitalMarketing";
+import DigitalMarketing from "./pages/DigitalMarketing";
 
 function App() {
   return (
