@@ -1,28 +1,20 @@
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Stats from "./components/stats";
-import Services from "./components/services";
-import WhyChooseUs from "./components/whychooseus";
-import HowItWorks from "./components/howitworks";
-import About from "./components/about";
-import Feedback from "./components/feedback";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./Home";
+import DigitalMarketing from "./pages/digitalMarketing";
 
 function App() {
   return (
-    <div className="bg-[#0B1120] text-white min-h-screen">
-      <Navbar />
-      <Hero/>
-      <Stats/>
-      <Services/>
-      <WhyChooseUs/>
-      <HowItWorks/>
-      <About/>
-      <Feedback />
-      <Contact/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route
+          path="/digital-marketing"
+          element={<DigitalMarketing />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

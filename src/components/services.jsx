@@ -6,6 +6,7 @@ import photo5 from "../assets/services/photo5.jpg";
 import photo6 from "../assets/services/photo6.jpg";
 import photo7 from "../assets/services/photo7.jpg";
 import photo8 from "../assets/services/photo8.jpg";
+import { Link } from "react-router-dom";
 
 import {
   FaBullhorn,
@@ -47,7 +48,7 @@ export default function Services() {
       icon: <FaCamera />,
     },
     {
-      title: "Brand Awareness Campaigns",
+      title: "Digital Marketing",
       image: photo6,
       icon: <FaGlobe />,
     },
@@ -79,7 +80,11 @@ export default function Services() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
         {services.map((service, index) => (
-          <div
+          <Link
+  key={index}
+  to={service.title === "Digital Marketing" ? "/digital-marketing" : "#"}
+>
+  <div
             key={index}
             className="group relative h-80 overflow-hidden rounded-3xl shadow-2xl border border-white/10 hover:border-blue-500 transition-all duration-500 active:scale-95"
           >
@@ -110,8 +115,9 @@ export default function Services() {
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+                   </div>
+        </Link>
+      ))}
       </div>
     </section>
   );

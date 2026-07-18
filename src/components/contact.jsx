@@ -37,7 +37,7 @@ export default function Contact() {
 
         {/* Phone */}
         <a
-          href="tel:+917374900620"
+          href="tel:+917375900620"
           className="group w-20 h-20 rounded-full bg-white/10 backdrop-blur-lg border border-white/10 hover:bg-green-600 hover:scale-110 transition-all duration-300 flex items-center justify-center shadow-lg"
           aria-label="Phone"
         >
